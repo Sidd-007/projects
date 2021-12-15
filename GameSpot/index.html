@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <span id="title">GameSpot</span>
+        <form id="form">
+            <input type="text" id="search" class="search" placeholder="Search">
+        </form>
+    </header>
+    <div class="app">
+        <div class="game-container">
+            <div class="category">
+                <button class="btn selected" data-name="new-games">New Games</button>
+                <button class="btn selected" data-name="trending-games">Trending Games</button>
+                <button class="btn" data-name="top-games">Top Games</button>
+                <button class="btn" data-name="upcoming-games">Upcoming Games</button>
+            </div>
+        </div>
+    </div>
+    <div class="games"></div>
+</body>
+<script src="index.js"></script>
+</html>
